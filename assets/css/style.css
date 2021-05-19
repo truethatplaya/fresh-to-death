@@ -1,3 +1,21 @@
-.jumbotron {
-  background-color: coral;
+* {
+  font-family: "Bebas Neue", cursive;
+}
+
+#heroPitch {
+  font-family: "Monoton", cursive;
+}
+
+#shortBio {
+  font-family: "Bebas Neue", cursive;
+}
+
+#headshotAlina {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50px;
+  float: right;
+  margin-right: 10px;
 }
