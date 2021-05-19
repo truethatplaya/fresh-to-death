@@ -1,6 +1,17 @@
 * {
   font-family: "Bebas Neue", cursive;
 }
+:root {
+  --charcoal: #2e4057;
+  --shamrock: #66a182;
+  --teaGreen: #caffb9;
+  --mintGreen: #aef78e;
+  --juneBud: #c0d461;
+}
+
+#heroBackground {
+  background-color: var(--mintGreen);
+}
 
 #heroPitch {
   font-family: "Monoton", cursive;
@@ -18,6 +29,10 @@
   border-radius: 100px;
   float: right;
   margin-right: 20 px;
+}
+
+.card {
+  margin: 5px;
 }
 
 img.medium {
